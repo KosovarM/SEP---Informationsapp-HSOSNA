@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+                android:id="@+id/nav_home"
+                android:icon="@drawable/ic_baseline_rss_feed_24"
+                android:title="@string/menu_home"/>
+        <item
+                android:id="@+id/nav_campus"
+                android:icon="@drawable/ic_baseline_explore_24"
+                android:title="@string/menu_campus"/>
+        <item
+                android:id="@+id/nav_institute"
+                android:icon="@drawable/ic_baseline_account_balance_24"
+                android:title="@string/menu_institute"/>
+
+        <item
+          android:id="@+id/nav_application"
+          android:icon="@drawable/ic_baseline_library_add_check_24"
+          android:title="@string/application"/>
+
+    </group>
+
+    <group android:id="@+id/chat_group"
+      android:checkableBehavior="single">
+
+        <item
+                android:id="@+id/nav_chat"
+                android:icon="@drawable/ic_baseline_send_24"
+                android:title="@string/menu_chat"/>
+
+    </group>
+
+    <group
+            android:id="@+id/other_group"
+            android:checkableBehavior="single">
+
+        <item
+                android:id="@+id/nav_options"
+                android:icon="@drawable/ic_baseline_settings_24"
+                android:title="@string/menu_settings"/>
+
+        <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_baseline_email_24"
+                android:title="@string/menu_feedback"/>
+
+        <item
+                android:id="@+id/nav_imprint"
+                android:icon="@drawable/ic_outline_info_24"
+                android:title="@string/menu_imprint"/>
+
+    </group>
+</menu>

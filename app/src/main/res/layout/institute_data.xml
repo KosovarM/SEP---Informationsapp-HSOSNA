@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+  android:id="@+id/institute_card"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  android:layout_width="match_parent"
+  android:layout_margin="8dp"
+  android:layout_height="wrap_content"
+  app:cardCornerRadius="8dp">
+
+  <LinearLayout
+    android:layout_gravity="center_horizontal|center_vertical"
+    android:orientation="vertical"
+    android:layout_margin="2dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+      app:riv_corner_radius="8dp"
+      android:id="@+id/ins_images"
+      android:layout_width="96dp"
+      android:layout_height="96dp"
+      android:layout_gravity="center"
+      android:layout_margin="5dp"
+      app:civ_border_width="2dp"
+      app:civ_border_color="@color/design_default_color_primary_dark"/>
+
+    <TextView
+      android:id="@+id/ins_name"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Dozent"
+      android:textStyle="bold"
+      android:textSize="20sp"/>
+
+    <TextView
+      android:id="@+id/ins_item_description"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Hier steht was drin "/>
+
+  </LinearLayout>
+
+</androidx.cardview.widget.CardView>
